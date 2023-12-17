@@ -1,1 +1,10 @@
 git clone https://github.com/kiranpchandrangcp/MyPython.git
+git config --list --show-origin
+git config user.name
+git init
+git add *.txt
+git commit -m "Initial project version"
+git remote
+git branch -M main
+git remote add origin https://github.com/kiranpchandrangcp/MyPython.git
+git push -u origin main
